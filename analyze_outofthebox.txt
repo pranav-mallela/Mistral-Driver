@@ -1,0 +1,47 @@
+---------------- Reporting Ground Truth Count, Exact-Match
+SLOW: 238 Ground Truth examples
+STOPPED: 555 Ground Truth examples
+ACCELERATE: 239 Ground Truth examples
+MAINTAIN: 418 Ground Truth examples
+LEFT: 140 Ground Truth examples
+RIGHT: 124 Ground Truth examples
+REVERSE: 9 Ground Truth examples
+OTHER: 263 Ground Truth examples
+TOTAL: 1986 Ground Truth examples
+---------------- Reporting Ground Truth Count, Close-Match
+SLOW: 793 Ground Truth examples
+MAINTAIN: 657 Ground Truth examples
+TURN: 264 Ground Truth examples
+REVERSE: 9 Ground Truth examples
+OTHER: 263 Ground Truth examples
+TOTAL: 1986 Ground Truth examples
+---------------- Reporting Per-label Accuracy, Exact-Match
+SLOW: 0.42436974789915966 (Correctly Predicted / Ground Truth)
+STOPPED: 0.6018018018018018 (Correctly Predicted / Ground Truth)
+ACCELERATE: 0.33472803347280333 (Correctly Predicted / Ground Truth)
+MAINTAIN: 0.6794258373205742 (Correctly Predicted / Ground Truth)
+LEFT: 0.1357142857142857 (Correctly Predicted / Ground Truth)
+RIGHT: 0.25 (Correctly Predicted / Ground Truth)
+REVERSE: 0.2222222222222222 (Correctly Predicted / Ground Truth)
+OTHER: 0.13307984790874525 (Correctly Predicted / Ground Truth)
+---------------- Reporting Per-label Exact-Match Precision
+SLOW: 0.3098159509202454 (Correctly Predicted / Total Predicted)
+STOPPED: 0.7785547785547785 (Correctly Predicted / Total Predicted)
+ACCELERATE: 0.37209302325581395 (Correctly Predicted / Total Predicted)
+MAINTAIN: 0.4507936507936508 (Correctly Predicted / Total Predicted)
+LEFT: 0.27941176470588236 (Correctly Predicted / Total Predicted)
+RIGHT: 0.256198347107438 (Correctly Predicted / Total Predicted)
+REVERSE: 0.05714285714285714 (Correctly Predicted / Total Predicted)
+OTHER: 0.21604938271604937 (Correctly Predicted / Total Predicted)
+---------------- Reporting Per-label Accuracy, Close-Match
+SLOW: 0.7629255989911727 (Correctly Predicted / Ground Truth)
+MAINTAIN: 0.7884322678843226 (Correctly Predicted / Ground Truth)
+TURN: 0.2537878787878788 (Correctly Predicted / Ground Truth)
+REVERSE: 0.2222222222222222 (Correctly Predicted / Ground Truth)
+OTHER: 0.13307984790874525 (Correctly Predicted / Ground Truth)
+---------------- Reporting Per-label Close-Match Precision
+SLOW: 0.8013245033112583 (Correctly Predicted / Total Predicted)
+MAINTAIN: 0.6130177514792899 (Correctly Predicted / Total Predicted)
+TURN: 0.3544973544973545 (Correctly Predicted / Total Predicted)
+REVERSE: 0.05714285714285714 (Correctly Predicted / Total Predicted)
+OTHER: 0.21604938271604937 (Correctly Predicted / Total Predicted)
