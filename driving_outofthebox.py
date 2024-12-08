@@ -216,9 +216,9 @@ def main():
     fs_dataset = Dataset.from_pandas(fs)
 
     # Test Model on Data
-    results = []
     for mode in ["test"]: # ["train", "validation", test"]
         data = dataset_dict[mode]
+        results = []
         predictions = []
         for example in data:
             prompt = get_prompt(example, fs_dataset)
@@ -227,7 +227,7 @@ def main():
             for elt in full_output:
                 if elt['role'] == 'assistant':
                     final_answer = elt['content']
-                    extract_output_lbl(final_answer)
+                    final_answer = extract_output_lbl(final_answer)
                     # Store the prediction and ground truth
                     results.append({
                         "description": example['description'],
