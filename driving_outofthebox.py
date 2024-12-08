@@ -253,7 +253,7 @@ def main():
         # with open(f'predictions_{mode}.txt', 'w') as f:
         #     for i, pred in enumerate(predictions):
         #         f.write(f"{pred} : {data['label'][i]}\n")
-        with open("results_finetuning.json", "w") as file:
+        with open("results_outofthebox.json", "w") as file:
             json.dump(results, file, indent=4)
 
         print("Results saved to results.json")

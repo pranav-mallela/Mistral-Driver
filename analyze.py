@@ -6,7 +6,8 @@ import json
 from collections import Counter
 
 # Load the JSON file
-file_path = "results_finetuning.json"  # Replace with your actual JSON file path
+mode = "outofthebox" # "finetuning"
+file_path = f"results_{mode}.json"  # Replace with your actual JSON file path
 with open(file_path, 'r') as file:
     data = json.load(file)
 
