@@ -15,6 +15,6 @@
 #SBATCH --output=out.txt
 
 eval "$(conda shell.bash hook)"
-conda activate ROB535
+conda activate rob535
 
-python3 driving.py
+python3 driving_outofthebox.py
