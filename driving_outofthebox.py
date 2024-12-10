@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from datasets import Dataset, DatasetDict
 from transformers import pipeline
 from dotenv import load_dotenv
